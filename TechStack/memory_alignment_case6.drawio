@@ -219,7 +219,7 @@
             <mxPoint x="550" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qjjEzZCaHjm8NlSgXZsO-1" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=0;position2=0;align=left;base=30;" value="b的大小 k = 4&lt;div&gt;该数据存放距离起始位置应为min(k, s) = min(4, 4) = 4的整数倍&lt;/div&gt;&lt;div&gt;即需要从4 * 3 = 12的位置开始存放，&lt;/div&gt;&lt;div&gt;因此需要先填充3个字节&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;整体大小刚好为16字节，是对齐单位s = 4的整数倍&lt;/div&gt;" vertex="1">
+        <mxCell id="qjjEzZCaHjm8NlSgXZsO-1" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=0;position2=0;align=left;base=30;" value="b的大小 k = 4&lt;div&gt;该数据存放距离起始位置应为min(k, s) = min(4, 4) = 4的整数倍&lt;/div&gt;&lt;div&gt;即需要从4 * 3 = 12的位置开始存放，&lt;/div&gt;&lt;div&gt;因此需要先填充3个字节&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;整体大小为9 + 3 + 4 = 16字节，刚好是对齐单位s = 4的整数倍&lt;/div&gt;" vertex="1">
           <mxGeometry height="150" width="230" x="650" y="400" as="geometry" />
         </mxCell>
       </root>
