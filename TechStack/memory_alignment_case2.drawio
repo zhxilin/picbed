@@ -175,8 +175,8 @@
         <mxCell id="bnOiq0095lczLOuPGoA0-45" parent="bnOiq0095lczLOuPGoA0-43" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=0;" value="+ b: double" vertex="1">
           <mxGeometry height="26" width="160" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="dNEq_bX0rHT3rwKQlp7J-2" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=0;position2=0;align=left;" value="double大小 k = 8&lt;div&gt;该数据存放距离起始位置应为min(k, s) = min(8, 4) = 4的整数倍&lt;/div&gt;&lt;div&gt;既可以从4 * 1 = 4的位置开始存放&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="160" x="610" y="235" as="geometry" />
+        <mxCell id="dNEq_bX0rHT3rwKQlp7J-2" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=0;position2=0;align=left;base=30;" value="double大小 k = 8&lt;div&gt;该数据存放距离起始位置应为min(k, s) = min(8, 4) = 4的整数倍&lt;/div&gt;&lt;div&gt;既可以从4 * 1 = 4的位置开始存放&lt;/div&gt;&lt;div&gt;double存放结束后来到了第12字节，此时也满足整个数据结构大小是对齐单位s = 4的整数倍，无需再填充对齐字节&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="160" x="640" y="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
