@@ -263,8 +263,8 @@
             <mxPoint x="419" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sn0LU-LAP1eGcFPi-5j8-3" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=0;position2=0;align=left;strokeColor=default;" value="double大小 k = 8&lt;div&gt;该数据距离起始位置应为min(k, s) = min(8, 4) = 4的整数倍&lt;/div&gt;&lt;div&gt;4 * 2 = 8的位置已经被BigData占用，只能从4 * 3 = 12的位置开始存放&lt;/div&gt;" vertex="1">
-          <mxGeometry height="148" width="160" x="640" y="462" as="geometry" />
+        <mxCell id="sn0LU-LAP1eGcFPi-5j8-3" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=0;position2=0;align=left;strokeColor=default;" value="b大小 k = 8&lt;div&gt;该数据距离起始位置应为min(k, s) = min(8, 4) = 4的整数倍&lt;/div&gt;&lt;div&gt;4 * 2 = 8的位置已经被BigData占用，只能从4 * 3 = 12的位置开始存放，因此需要填充3个字节&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;整体大小为9 + 3 + 8 = 20字节，刚好是对齐单位s = 4的整数倍&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="220" x="640" y="430" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
